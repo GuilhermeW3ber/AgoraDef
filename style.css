@@ -844,22 +844,67 @@ p{
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    height: 400px;
+    height: 100vh; 
 }
 
+/* .ServicesDescription{
+    height: 500px;
+    width: 25vw;
+    margin: 10px;
+    color: #fff;
+}
+
+.ServicesDescription h1{
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: 200;
+}
+
+.ServicesDescription h2{
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #a3a3a3;
+    font-weight: 200;
+}
+
+.ServicesDescription p{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #a3a3a3;
+    font-weight: 200;
+    text-align: left;
+}
+
+.ServicesDescription a{
+    color: #fff;
+    font-weight: 200;
+    font-size: 20px;
+    border: 1px solid #fff;
+    padding: 0 40px 4px ;
+    border-radius: 100px;
+    text-decoration: none;
+    transition: 0.25s ease-in-out;
+}
+
+.ServicesDescription a:hover{
+    color: #ffffff;
+    background-color: #1A1A1A;
+    font-size: 20px;
+    border: 1px solid #1A1A1A;
+} */
+
 .item-text-container{
-    border-bottom: 1px solid #7D7E79;
+    /* border-bottom: 1px solid #7D7E79;
     margin-top: -30px;
     border-radius: 5px 5px 0 0;
     padding: 20px 0;
     height: 200px;
-    margin-right: 20px;    
-}
-
-.item-text-container img{
-    position: relative;
-    width: 200px;
-    margin-top: 80px;
+    margin-right: 20px;     */
+    height: 500px;
+    margin: 10px;
+    color: #fff;
 }
 
 #owl-about .item h1{
@@ -868,25 +913,25 @@ p{
    font-size: 23px;
    font-weight: 300;
    height: 100px;
-   color: #7D7E79;
+   color: #fff;
 }
 
 #owl-about .item h2{
-    position: absolute;
+    position: relative;
     font-size: 25px;
     font-weight: 400;
-    height: 100px;
-    margin: 150px 0 0 210px;
+    margin: 20px 0 0 0;
     color: #000;
 }
 
  #owl-about .item p{
-    position: absolute;
+    position: relative;
     font-size: 16px;
     font-weight: 300;
     height: 100px;
-    margin: 180px 0 0 210px;
+    margin: 20px 0 0 0;
     color: #000;
+    text-align: left;
 }
 
 @media (max-width:1300px){
@@ -1884,7 +1929,7 @@ input:focus{
     flex-wrap: wrap;
     display: flex;
     justify-content: center;  
-    margin-bottom: 60px;
+    margin-bottom: 0px;
     margin-top: 20px;
     border-radius: 20px;
 }
@@ -1946,7 +1991,6 @@ input:focus{
 }
 
 .servicesCard{
-    position: flex;
     height: 25vw;
     width: 100%;
     border-radius: 1px;
@@ -2367,7 +2411,34 @@ input:focus{
 }
 
 .mainContent2 h1 i{
-
     font-weight: 500;
     font-style: normal;
+}
+
+@media (max-width: 700px) { 
+    #owl-about .item{
+        background: transparent;
+        padding: 30px 0px;
+        margin: 2px;
+        color: #FFF;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        height: 170vw; 
+    }
+
+    .servicesCard{
+        height: 80vw;
+        width: 100%;
+        border-radius: 1px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #FFFFFF;
+        transition: 0.3s ease-in;
+        padding: 3rem 2rem 2.5rem;
+        background: linear-gradient(rgba(22, 22, 22, 0.7), rgba(22, 22, 22, 0.7));
+    }
+    
 }
