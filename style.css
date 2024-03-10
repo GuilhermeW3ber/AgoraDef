@@ -167,7 +167,7 @@ a{
 }
 
 .bg-light {
-	background-color: transparent !important;
+	background-color: #121212 !important;
     transition: all 200ms linear;
 }
 .section {
@@ -363,14 +363,18 @@ p{
 
 .hero h2{
     margin-bottom: 2em;
+    font-weight: 200;
 }
 
 .hero a{
     border: 1px solid white;
-    padding: 10px 20px;
+    padding: 8px 30px;
     border-radius: 100px;
     color: white;
+    font-weight: 200;
+    font-size: 17px;
     transition: 0.25s ease-in-out;
+    text-decoration: none;
 }
 
 .hero a:hover{
@@ -1086,6 +1090,7 @@ section{
     bottom: 0;
     padding-top: 50px;
     background-color: #fff;
+    border-top: 1px solid #575757;
 }
 
 .footer-content img{
@@ -2495,6 +2500,10 @@ input:focus{
         margin-top: 40px
     }
 
+    .mainContent h1{
+        font-size: 2.5rem;
+     }
+
     .mainImgCard {
         margin: 0 ;
         height: 70vw;
@@ -2533,10 +2542,6 @@ input:focus{
         font-size: 2.6em;
         line-height: 50px;
         margin-bottom: 40px;
-     }
-
-     .mainContent h1{
-        font-size: 3rem;
      }
 
     .mainContent2 h1{
