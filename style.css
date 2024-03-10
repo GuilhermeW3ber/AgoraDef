@@ -2313,7 +2313,7 @@ input:focus{
 .main{
     background-color: #121212;
     padding-bottom: 40px;
-    padding: 20vh 0;
+    padding: 10vh 0;
 }
 
 .mainContainer {
@@ -2331,6 +2331,7 @@ input:focus{
     width: 100%;
     text-align: left;
     margin-top: 25%;
+    margin-left: 40px;
 }
 
 .mainContent h1 {
@@ -2353,6 +2354,8 @@ input:focus{
     font-weight: 200;
     text-align: left;
     color: #a3a3a3;
+    width: 50vw;
+    max-width: 500px;
 }
 
 .mainButton {
@@ -2475,8 +2478,76 @@ input:focus{
     .servicesText h2{
         font-weight: 200;
         font-size: 1.3em;
-        width: 70vw;
+        width: 85vw;
         color: #a3a3a3;
         margin-top: 30px;
     }
+}
+
+@media (max-width: 1000px) { 
+    .mainContainer {
+        grid-template-columns: 0fr;
+        width: 100%;
+    }
+
+    .mainContent2 {
+        margin-left: 20%;
+        margin-top: 40px
+    }
+
+    .mainImgCard {
+        margin: 0 ;
+        height: 70vw;
+        width: 70vw;
+        margin-left: 20%;
+        border-radius: 4px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #141414;
+    }
+    .mainContent{
+        margin-left: 20%;
+        margin-bottom: 40px;
+    }
+
+    .mainContent p{
+        width: 70vw;
+    }
+
+    .socials{
+        margin: 10px 0 40px;
+        width: 200px;
+    }
+}
+
+@media (max-width: 555px) { 
+    .socials{
+        margin: 10px 0 40px;
+        width: 70vw;
+    }
+}
+
+@media (max-width: 500px) { 
+    .hero h1{
+        font-size: 2.6em;
+        line-height: 50px;
+        margin-bottom: 40px;
+     }
+
+     .mainContent h1{
+        font-size: 3rem;
+     }
+
+    .mainContent2 h1{
+        font-size: 43px;
+    }
+}
+
+@media (max-width: 382px) { 
+
+    .mainContent h1{
+        font-size: 2.5rem;
+    }
+
 }
