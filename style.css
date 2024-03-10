@@ -7,7 +7,7 @@
 
 body {
 	margin: 0;
-	background: #fff;
+	background: #212121;
 	font-weight: 800;
     transition: all 200ms linear;
 }
@@ -395,6 +395,7 @@ p{
     font-weight: 200;
     margin-bottom: 0 0 40px 0;
     font-size: 3em;
+    color: #FFF;
 }
 
 .servicesText h2{
@@ -513,46 +514,47 @@ p{
 }
 
 #owl-demo .item{
-    background: #E7E7E7;
     padding: 30px 0px;
     margin: 2px;
     color: #FFF;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    height: 600px;
+    height: 650px;
     align-items: left;
-
 }
 
 #owl-demo .item a{ 
-    position: absolute;
+    position: relative;
     color: #fff;
-    text-transform: uppercase;
-    border: 2px solid #fff;
-    padding: 12px 50px;
-    margin-left: 40px;
+    font-weight: 200;
+    font-size: 20px;
+    border: 1px solid #fff;
+    padding: 0 40px 4px ;
+    border-radius: 100px;
     text-decoration: none;
-    font-weight: 400;
-    margin-top: 280px;
-    transition: 0.4s ease-in-out;
+    transition: 0.25s ease-in-out;
 }
 
 #owl-demo .item a:hover{ 
-    position: absolute;
-    color: #fff;
-    text-transform: uppercase;
-    border: 2px solid #fff;
-    padding: 12px 30px 12px 30px;
-    margin-left: 60px;
+    color: #ffffff;
+    background-color: #1A1A1A;
+    font-size: 20px;
+    border: 1px solid #1A1A1A;
 }
     
+#owl-demo .item h1{ 
+    position: relative;
+    font-weight: 200;  
+    font-size: 25px;
+}
 
 #owl-demo .item h2{ 
-    position: absolute;
-    margin-left: 40px;
-    margin-top: 180px;
-    font-weight: 400;  
+    position: relative;
+    margin-top: 0px;
+    font-weight: 200;  
+    font-size: 25px;
+    margin-bottom: 20px;
 }
 
 .a1{ 
@@ -837,14 +839,14 @@ p{
 }
 
 #owl-about .item{
-    background: transparent;
     padding: 30px 0px;
     margin: 2px;
     color: #FFF;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    height: 100vh; 
+    height: 800px;
+    align-items: left;
 }
 
 /* .ServicesDescription{
@@ -908,12 +910,29 @@ p{
 }
 
 #owl-about .item h1{
-   text-align: left;
-   margin: 0px 40px;
-   font-size: 23px;
-   font-weight: 300;
-   height: 100px;
-   color: #fff;
+    position: relative;
+    font-size: 25px;
+    font-weight: 400;
+    margin: 20px 0 0 0;
+    color: #fff;
+}
+
+#owl-about .item a{
+    color: #fff;
+    font-weight: 200;
+    font-size: 20px;
+    border: 1px solid #fff;
+    padding: 0 40px 4px ;
+    border-radius: 100px;
+    text-decoration: none;
+    transition: 0.25s ease-in-out;
+}
+
+#owl-about .item a:hover{
+    color: #ffffff;
+    background-color: #1A1A1A;
+    font-size: 20px;
+    border: 1px solid #1A1A1A;
 }
 
 #owl-about .item h2{
@@ -921,7 +940,7 @@ p{
     font-size: 25px;
     font-weight: 400;
     margin: 20px 0 0 0;
-    color: #000;
+    color: #fff;
 }
 
  #owl-about .item p{
@@ -930,15 +949,9 @@ p{
     font-weight: 300;
     height: 100px;
     margin: 20px 0 0 0;
-    color: #000;
+    color: #fff;
     text-align: left;
-}
-
-@media (max-width:1300px){
-    #owl-about .item h1{
-        font-size: 18px;
-        font-weight: 400;
-     }
+    max-width: 480px;
 }
 
 #owl-about{
@@ -1072,6 +1085,7 @@ section{
     right: 0;
     bottom: 0;
     padding-top: 50px;
+    background-color: #fff;
 }
 
 .footer-content img{
@@ -2003,6 +2017,8 @@ input:focus{
     padding: 3rem 2rem 2.5rem;
     background: linear-gradient(rgba(22, 22, 22, 0.7), rgba(22, 22, 22, 0.7));
     /* border-radius: 20px;  */
+    max-width: 480px;
+    max-height: 480px;
 }
 
 .servicesCard h1{
@@ -2424,7 +2440,7 @@ input:focus{
         -webkit-border-radius: 3px;
         -moz-border-radius: 3px;
         border-radius: 3px;
-        height: 170vw; 
+        height: 700px; 
     }
 
     .servicesCard{
@@ -2440,5 +2456,27 @@ input:focus{
         padding: 3rem 2rem 2.5rem;
         background: linear-gradient(rgba(22, 22, 22, 0.7), rgba(22, 22, 22, 0.7));
     }
+
+    .background-color{
+        padding: 20px 0;
+    }
+
+    .servicesText{
+        margin: 30px 5vw 0px;
+    }
+
+    .servicesText h1{
+        font-weight: 200;
+        margin-bottom: 0 0 40px 0;
+        font-size: 2.5em;
+        color: #FFF;
+    }
     
+    .servicesText h2{
+        font-weight: 200;
+        font-size: 1.3em;
+        width: 70vw;
+        color: #a3a3a3;
+        margin-top: 30px;
+    }
 }
