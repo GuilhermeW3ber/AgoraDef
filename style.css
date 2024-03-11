@@ -129,10 +129,14 @@ a{
 	border-color: transparent;
 }
 .nav-link{
-	color: #a8a8a8 !important;
-	font-weight: 500;
+	color: #ffffff !important;
+	font-weight: 400;
     transition: all 200ms linear;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-left: 50px;
 }
+
 .nav-item:hover .nav-link{
 	color: #fff !important;
 }
