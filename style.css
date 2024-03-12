@@ -7,7 +7,7 @@
 
 body {
 	margin: 0;
-	background: #212121;
+	background: #ffffff;
 	font-weight: 800;
     transition: all 200ms linear;
 }
@@ -2346,8 +2346,9 @@ input:focus{
     color: #FFFFFF;
     width: 100%;
     text-align: left;
-    margin-top: 25%;
+    margin-top: 8%;
     margin-left: 40px;
+    /* height: 60vh; */
 }
 
 .mainContent h1 {
@@ -2366,7 +2367,7 @@ input:focus{
 
 .mainContent p {
     margin-top: 1rem;
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-weight: 200;
     text-align: left;
     color: #a3a3a3;
@@ -2434,8 +2435,8 @@ input:focus{
     color: #000;
     width: 100%;
     text-align: left;
-    margin-top: 25%;
-
+    margin-top: 20%;
+    /* height: 60vh; */
 }
 
 .mainContent2 h1 {
@@ -2448,6 +2449,25 @@ input:focus{
 .mainContent2 h1 i{
     font-weight: 500;
     font-style: normal;
+}
+
+.mainContent2 a{ 
+    position: relative;
+    color: #000000;
+    font-weight: 200;
+    font-size: 20px;
+    border: 1px solid #000000;
+    padding: 6px 30px;
+    border-radius: 100px;
+    text-decoration: none;
+    transition: 0.25s ease-in-out;
+}
+
+.mainContent2 a:hover{ 
+    color: #ffffff;
+    background-color: #1A1A1A;
+    font-size: 20px;
+    border: 1px solid #1A1A1A;
 }
 
 @media (max-width: 700px) { 
