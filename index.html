@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>©Ágora Inc.®, a Software House para todos os projetos.</title>
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./Src/Css/style.css">
   
     <link rel="shortcut icon" href="./Src/Icones/ágora_logo_branco.png" type="image/x-icon">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.css" rel="stylesheet"/>
@@ -64,7 +64,7 @@
         <a href="#services-demo">Saber Mais</a>
       </div>
       <video playsinline autoplay muted loop id="video">
-        <source src="./Src/video (1080p).mp4">
+        <source src="./Src/Videos/home.mp4">
       </video>
     </div>
     <div class="background-color" style="padding-bottom: 50px; background-color: #121212;" id="services-demo">
@@ -153,18 +153,6 @@
         </div>
       </div>
     </div>
-    <!-- <div class="loft-wrapper" id="loft">
-      <div class="form-container">
-        <div class="recall">
-          <div class="recall-text">
-            <h1>Deixe-nos uma mensagem</h1>
-          </div>
-          <div class="recall-button">
-            <a href="#loft">Contato</a>
-          </div>
-        </div>
-      </div>
-    </div> -->
     <section class="footer" id="footer">
       <div class="footer-content">
         <img src="./Src/Icones/ágora_logo.png" alt="">
@@ -192,121 +180,10 @@
     </section>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
-    <script src="config.js"></script>
+    <script src="./Src/Js/menu.js"></script>
     <script src="./Src/Js/textTyping.js"></script>
-    <script>
-      $(document).ready(function() {
-  
-        var owl = $("#owl-demo");
-  
-       owl.owlCarousel({
-  
-          // Define custom and unlimited items depending from the width
-          // If this option is set, itemsDeskop, itemsDesktopSmall, itemsTablet, itemsMobile etc. are disabled
-          // For better preview, order the arrays by screen size, but it's not mandatory
-          // Don't forget to include the lowest available screen size, otherwise it will take the default one for screens lower than lowest available.
-          // In the example there is dimension with 0 with which cover screens between 0 and 450px
-          
-          //Basic Speeds
-          slideSpeed : 200,
-          paginationSpeed : 800,
-      
-          //Autoplay
-          autoPlay : false,
-          goToFirst : true,
-          goToFirstSpeed : 1000,
-      
-          // Navigation
-          
-          navigation : false,
-          navigationText : ["prev","next"],
-          pagination : true,
-          
-          // Responsive
-          responsive: true,
-          items : 3,
-          itemsDesktop : [1400,3],
-          itemsTablet: [1200,3],
-          itemsMobile : [700,1],
-  
-        });
-  
-      });
-    </script>
-    <script>
-      $(document).ready(function() {
-  
-        var owl = $("#owl-about");
-  
-        owl.owlCarousel({
-  
-          // Define custom and unlimited items depending from the width
-          // If this option is set, itemsDeskop, itemsDesktopSmall, itemsTablet, itemsMobile etc. are disabled
-          // For better preview, order the arrays by screen size, but it's not mandatory
-          // Don't forget to include the lowest available screen size, otherwise it will take the default one for screens lower than lowest available.
-          // In the example there is dimension with 0 with which cover screens between 0 and 450px
-          
-          //Basic Speeds
-          slideSpeed : 200,
-          paginationSpeed : 800,
-      
-          //Autoplay
-          autoPlay : false,
-          goToFirst : true,
-          goToFirstSpeed : 1000,
-      
-          // Navigation
-          
-          navigation : false,
-          navigationText : ["prev","next"],
-          pagination : true,
-          
-          // Responsive
-          responsive: true,
-          items : 3,
-          itemsDesktop : [1400,3],
-          itemsTablet: [1200,3],
-          itemsMobile : [700,1],
-  
-        });
-  
-      });
-    </script>
-    <script>
-
-(function($) { "use strict";
-
-$(function() {
-  var header = $(".start-style");
-  $(window).scroll(function() {    
-    var scroll = $(window).scrollTop();
-  
-    if (scroll >= 10) {
-      header.removeClass('start-style').addClass("scroll-on");
-    } else {
-      header.removeClass("scroll-on").addClass('start-style');
-    }
-  });
-});		
-  
-//Animation
-
-$(document).ready(function() {
-  $('body.hero-anime').removeClass('hero-anime');
-});
-
-//Menu On Hover
-  
-$('body').on('mouseenter mouseleave','.nav-item',function(e){
-    if ($(window).width() > 750) {
-      var _d=$(e.target).closest('.nav-item');_d.addClass('show');
-      setTimeout(function(){
-      _d[_d.is(':hover')?'addClass':'removeClass']('show');
-      },1);
-    }
-});	
-
-})(jQuery); 
-    </script>
+    <script src="./Src/Js/Carousel/agoraCarousel.js"></script>
+    <script src="./Src/Js/Carousel/aboutCarousel.js"></script>
+    <script src="./Src/Js/navbar.js"></script>
     <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js'></script>
 </html>
