@@ -2346,7 +2346,7 @@ input:focus{
     color: #FFFFFF;
     width: 100%;
     text-align: left;
-    margin-top: 8%;
+    margin-top: 10vw;
     margin-left: 40px;
     /* height: 60vh; */
 }
@@ -2422,8 +2422,8 @@ input:focus{
 
 .mainImgCard {
     margin: 40px 2vw;
-    height: 500px;
-    width: 90%;
+    height: 45vw;
+    width: 45vw;
     border-radius: 4px;
     display: flex;
     flex-direction: column;
@@ -2435,7 +2435,7 @@ input:focus{
     color: #000;
     width: 100%;
     text-align: left;
-    margin-top: 20%;
+    margin-top: 13vw;
     /* height: 60vh; */
 }
 
@@ -2587,3 +2587,122 @@ input:focus{
     }
 
 }
+
+#dryTech{
+    background-image: url(../images/Clinetes/DryTech.jpeg);
+    background-size: cover;
+    background-position-x: -100px;
+   
+}
+
+#dornelles{
+    background-image: url(../images/Clinetes/Dornelles.jpg);
+    background-size: cover;
+    background-position-x: -50px;
+}
+
+#veloxEventos{
+    background-image: url(../images/Clinetes/Velox2.png);
+    background-size: cover;
+}
+
+#web{
+    background-image: url(../images/Jobs/web.jpg);
+    background-size: cover;
+    background-position-x: -100px;
+   
+}
+
+#software{
+    background-image: url(../images/Jobs/DesenvolvimentoSoftware.jpg);
+    background-size: cover;
+    background-position-x: -50px;
+}
+
+#midia{
+    background-image: url(../images/Jobs/MidiaSocial.jpg);
+    background-size: cover;
+    background-position-y: -50px;
+}
+
+#firstContainer{
+    background-image: url(../images/Home/home.jpg);
+    background-size: cover;
+    background-position-y: -80px;
+}
+
+#secondContainer{
+    background-image: url(../images/Home/home2.jpg);
+    background-size: cover;
+}
+
+.mainMessageContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 0px;
+}
+
+.contactFirstText {
+    margin: 0 0 0 20px;
+}
+
+.contactFirstText h1{
+    color: #FFF;
+    font-weight: 200;
+}
+
+.contactSecondText {
+    margin: 0 20px 0 0;
+}
+
+.contactSecondText h1{
+    color: #FFF;
+    font-weight: 200;
+    margin: 0 0 40px 0;
+    font-size: 24px;
+}
+
+.contactSecondText a{
+    color: #FFF;
+    font-weight: 200;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 5px 20px 8px;
+    text-decoration: none;
+    transition: 0.45s ease-in-out;
+}
+
+.contactSecondText a:hover{
+    color: #000;
+    background-color: #FFF;
+}
+
+
+
+@media (max-width:540px){
+    .mainMessageContainer {
+        grid-template-columns: 0fr;
+        width: 100%;
+    }
+
+    .contactFirstText {
+        margin: 0 20px 20px 20px;
+    }
+
+    .contactSecondText h1{
+        color: #FFF;
+        font-weight: 200;
+        margin: 0 0 40px 0;
+        font-size: 24px;
+        width: 80vw;
+    }
+
+    .contactSecondText {
+        margin: 0 20px 0 20px;
+    }
+};
