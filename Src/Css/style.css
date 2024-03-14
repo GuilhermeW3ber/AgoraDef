@@ -1008,16 +1008,6 @@ p{
     text-decoration: none;
 }
 
-@media (max-width: 1290px) { 
-    
-    .about-button-container{
-        padding-left: 30vw;
-        padding-right: 30vw;
-        margin-right: 20vw;
-    }
-    
-}
-
 #info-logo{
     width: 100px;
 }
@@ -1112,7 +1102,7 @@ section{
 .footer-content h4{
     color: #000;
     margin-bottom: 50px;
-    font-size: 16px;
+    font-size: 18px;
     text-transform: uppercase;
     font-weight: 500;
 }
@@ -1125,7 +1115,7 @@ section{
 .footer-content li a{
     display: block;
     color: #000;   
-    font-size: 16px;
+    font-size: 19px;
     font-weight: 400;
     transition: 0.5s ease-in-out;
     text-decoration: none;
@@ -2622,7 +2612,6 @@ input:focus{
 #midia{
     background-image: url(../images/Jobs/MidiaSocial.jpg);
     background-size: cover;
-    background-position-y: -50px;
 }
 
 #firstContainer{
@@ -2706,3 +2695,13 @@ input:focus{
         margin: 0 20px 0 20px;
     }
 };
+
+@media (max-width: 1300px) { 
+    
+    .about-button-container{
+        padding-left: 30vw;
+        padding-right: 30vw;
+        margin-right: 20vw;
+    }
+    
+}
