@@ -757,66 +757,6 @@ section{
 	border-radius: 30px;
 }
 
-#owl-plant .item{
-    background: #E7E7E7;
-    padding: 30px 0px;
-    margin: 2px;
-    color: #FFF;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-    height: 600px;
-    align-items: left;
-    background-size: cover;
-}
-
-#owl-plant .item a{ 
-    position: absolute;
-    color: #fff;
-    text-transform: uppercase;
-    border: 2px solid #fff;
-    padding: 12px 50px;
-    margin-left: 40px;
-    text-decoration: none;
-    font-weight: 400;
-    margin-top: 280px;
-    transition: 0.4s ease-in-out;
-}
-
-#owl-plant .item a:hover{ 
-    position: absolute;
-    color: #fff;
-    text-transform: uppercase;
-    border: 2px solid #fff;
-    padding: 12px 30px 12px 30px;
-    margin-left: 60px;
-}
-    
-
-#owl-plant .item h2{ 
-    position: absolute;
-    margin-left: 40px;
-    margin-top: 180px;
-    font-weight: 400;
-}
-
-@media (max-width:900px){
-
-    #owl-plant .item{
-        background: #E7E7E7;
-        padding: 30px 0px;
-        margin: 2px;
-        color: #FFF;
-        -webkit-border-radius: 3px;
-        -moz-border-radius: 3px;
-        border-radius: 3px;
-        height: 25vh;
-        align-items: left;
-        background-size: cover;
-    }
-
-}
-
 .background-color{
     padding: 20px 0;
 }
