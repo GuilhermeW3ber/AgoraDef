@@ -951,7 +951,7 @@ section{
         -webkit-border-radius: 3px;
         -moz-border-radius: 3px;
         border-radius: 3px;
-        height: 700px; 
+        height: 600px; 
     }
 
     .servicesCard{
@@ -967,6 +967,7 @@ section{
         padding: 3rem 2rem 2.5rem;
         background: linear-gradient(rgba(22, 22, 22, 0.7), rgba(22, 22, 22, 0.7));
     }
+
 
     .servicesText{
         margin: 0 5vw 0px;
@@ -986,6 +987,14 @@ section{
         width: 85vw;
         color: #a3a3a3;
         margin-top: 30px;
+    }
+
+    .main{
+        padding: 0 0 10vh;
+    }
+
+    .main2{
+        padding: 10vh 0;
     }
 }
 
@@ -1060,8 +1069,6 @@ section{
 #dryTech{
     background-image: url(../images/Clinetes/DryTech.jpeg);
     background-size: cover;
-    background-position-x: -100px;
-   
 }
 
 #dornelles{
