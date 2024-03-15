@@ -1103,7 +1103,6 @@ section{
 #firstContainer{
     background-image: url(../images/Home/home.jpg);
     background-size: cover;
-    background-position-y: -80px;
 }
 
 #secondContainer{
