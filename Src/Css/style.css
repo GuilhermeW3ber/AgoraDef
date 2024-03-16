@@ -351,7 +351,8 @@ p{
 }
 
 .hero{
-    background-color: #271F1C;
+    background-color: #282e5f;
+    /* background-color: #271F1C; */
     width: 100%;
     color: white;
     padding: 15vh 0 0 0;
@@ -363,13 +364,14 @@ p{
 
 .hero i{
     text-transform: capitalize;
-    color: #FFEA86;
+    /* color: #FFEA86; */
+    color: #7096ff;
     text-decoration: none;
     font-style: normal;
  }
 
 .hero a{
-    border: 1px solid #FFEA86;
+    border: 1px solid #7096ff;
     padding: 8px 30px;
     border-radius: 100px;
     color: #fff;
