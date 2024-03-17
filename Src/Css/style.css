@@ -50,18 +50,18 @@ a{
 	transform: translateY(0);
 	padding: 30px 0;
 	-webkit-transition : all 0.3s ease-out;
-	transition : all 0.3s ease-out;
+	transition: 0.45s ease-in-out;
 }
 .start-header.scroll-on {
 	padding: 20px 0;
 	-webkit-transition : all 0.3s ease-out;
-	transition : all 0.3s ease-out;
+	transition: 0.45s ease-in-out;
     background-color: #121212 !important;
 }
 .start-header.scroll-on .navbar-brand img{
 	height: 60px;
 	-webkit-transition : all 0.3s ease-out;
-	transition : all 0.3s ease-out;
+	transition: 0.45s ease-in-out;
     top: -15px;
 }
 .navigation-wrap{
@@ -71,7 +71,7 @@ a{
 	left: 0;
 	z-index: 1000;
 	-webkit-transition : all 0.3s ease-out;
-	transition : all 0.3s ease-out;
+    transition: 0.45s ease-in-out;
 }
 .navbar{
 	padding: 0;
@@ -174,10 +174,10 @@ a{
 
 .start-style{
     background-color: transparent !important;
+    transition: 0.45s ease-in-out;
 }
 
 .bg-light {
-
     transition: all 200ms linear;
 }
 .section {
@@ -299,7 +299,7 @@ p{
 	.nav-item:after{
 		display: none;
 	}
-	.nav-item::before {
+	/* .nav-item::before {
 		position: absolute;
 		display: block;
 		top: 15px;
@@ -310,11 +310,11 @@ p{
 		border: none;
 		background-color: #fff;
 		vertical-align: 0;
-	}
+	} */
 	.dropdown-toggle::after {
 		position: absolute;
 		display: block;
-		top: 10px;
+		top: 12px;
 		left: -23px;
 		width: 1px;
 		height: 11px;
@@ -348,6 +348,18 @@ p{
 		background-color: transparent;
 		box-shadow: none;
 	}
+    .dropdown-item {
+        color: #fff;
+    }
+    .nav-link{
+        margin-left: 0px;
+    }
+    .start-header.start-style {
+        padding: 23px 0;
+        -webkit-transition : all 0.3s ease-out;
+        transition : all 0.3s ease-out;
+        background: rgba(22, 22, 22, 0.7) !important;
+    }
 }
 
 .hero{
