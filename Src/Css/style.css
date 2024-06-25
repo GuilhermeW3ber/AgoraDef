@@ -357,7 +357,7 @@ p{
         padding: 23px 0;
         -webkit-transition : all 0.3s ease-out;
         transition : all 0.3s ease-out;
-        background: rgba(22, 22, 22, 0.7) !important;
+        background: #121212 !important;
     }
 }
 
@@ -414,17 +414,6 @@ p{
     width: 500px;
     color: #a3a3a3;
     margin-top: 30px;
-}
-
-@media(max-width:600px){
-    .hero h1{
-        font-size: 4em;
-        line-height: 80px;
-    }
-     
-    .hero h2{
-        font-size: 1.2em;
-    }
 }
 
 .owl-container{
@@ -855,14 +844,11 @@ section{
     margin: 0 auto;
     z-index: 1;
     width: 100%;
-    max-width: 1300px;
-    padding: 0 0px;
-    padding-top: 10vh;
     text-align: center;
     justify-content: center;
     align-items: center;
-    padding: 20vh 20vw;
-
+    padding: 20vh 5vw;
+    max-width: 1100px;
 }
 
 .mainContent {
@@ -1008,7 +994,13 @@ section{
 
     .mainContent2 {
         margin-left: 20%;
-        margin-top: 40px
+        margin-top: 40px;
+        font-size: 2.5vw;
+    }
+
+    .mainContent2 h1{
+        
+        font-size: 12vw;
     }
 
     .mainContent h1{
@@ -1057,15 +1049,7 @@ section{
 }
 
 @media (max-width: 500px) { 
-    .hero h1{
-        font-size: 2.6em;
-        line-height: 50px;
-        margin-bottom: 40px;
-     }
-
-    .mainContent2 h1{
-        font-size: 43px;
-    }
+    
 }
 
 @media (max-width: 382px) { 
@@ -1199,8 +1183,8 @@ section{
 }
 
 .mainHeroContent h1 {
-    font-size: 4rem;
-    text-transform: capitalize;
+    font-size: 7vw;
+    text-transform: uppercase;
     margin-bottom: 32px;
     font-weight: 600;
 }
@@ -1209,6 +1193,7 @@ section{
     font-size: 1.6rem;
     font-weight: 200;
     margin-bottom: 2em;
+    padding: 0 10vw;
 }
 
 .mainHeroContent a{
@@ -1236,6 +1221,14 @@ section{
     .sub-hero #sub-hero-content{
         font-size: 35px;
         font-weight: 400;
+    }
+
+    .mainHeroContent h1 {
+        font-size: 12vw;
+    }
+
+    .mainHeroContent h2 {
+        font-size: 6vw;
     }
  
 }
